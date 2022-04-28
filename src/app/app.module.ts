@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AgmCoreModule } from '@agm/core';
+import { HomeComponent } from './home/home.component';
+import { DiscartComponent } from './discart/discart.component';
+import { LegislationComponent } from './legislation/legislation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    DiscartComponent,
+    LegislationComponent,
   ],
   imports: [
     BrowserModule,
