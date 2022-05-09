@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-legislation',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
     styleUrls: ['./legislation.component.css']
 })
 
-export class LegislationComponent {
+export class LegislationComponent implements OnInit{
+    
+    constructor(
+        ){}
+    ngOnInit(): void {
+        throw new Error('Method not implemented.');
+    }
 
 }
