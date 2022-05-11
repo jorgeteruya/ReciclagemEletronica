@@ -1,8 +1,0 @@
-[build]
-command = "npm run build:reciclagem"
-functions = "reciclagem/netlify/functions"
-publish = "reciclagem/dist/reciclagem"
-base="."
-
-[[plugins]]
-  package="."
